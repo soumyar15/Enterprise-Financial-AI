@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+  name: finance-ai
+
+spec:
+
+  replicas: 2
+
+  selector:
+
+    matchLabels:
+
+      app: finance-ai
+
+  template:
+
+    metadata:
+
+      labels:
+
+        app: finance-ai
+
+    spec:
+
+      containers:
+
+      - name: finance-ai
+
+        image: finance-ai:latest
+
+        ports:
+
+        - containerPort: 8000

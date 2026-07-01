@@ -31,3 +31,10 @@ def health():
 from api.chat import router
 
 app.include_router(router)
+
+from api.risk import router as risk_router
+from api.health import router as health_router
+
+app.include_router(risk_router)
+
+app.include_router(health_router)
