@@ -27,3 +27,7 @@ def health():
             "status": "Healthy"
         }
     )
+
+from api.chat import router
+
+app.include_router(router)
