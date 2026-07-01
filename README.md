@@ -1,3 +1,18 @@
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
+
+![LangGraph](https://img.shields.io/badge/LangGraph-AgenticAI-orange)
+
+![Azure](https://img.shields.io/badge/Azure-OpenAI-blue)
+
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-AKS-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 # Enterprise Financial AI Platform
 
 > Enterprise-grade Multi-Agent AI Platform for Portfolio Analytics, Risk Management, Investment Research and Decision Intelligence.
