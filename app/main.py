@@ -38,3 +38,13 @@ from api.health import router as health_router
 app.include_router(risk_router)
 
 app.include_router(health_router)
+
+from api.auth import router as auth_router
+from api.news import router as news_router
+from api.document import router as document_router
+
+app.include_router(auth_router)
+
+app.include_router(news_router)
+
+app.include_router(document_router)
